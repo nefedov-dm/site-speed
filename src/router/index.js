@@ -5,12 +5,13 @@ import TheLongGrid from '@components/TheLongGrid';
 
 Vue.use(Router);
 
-const createRouter = () => new Router({
-  mode: 'history',
-  routes: [
-    { path: '/', component: TheHome },
-    { path: '/longgrid', component: TheLongGrid },
-  ],
-});
+const createRouter = () =>
+  new Router({
+    mode: 'history',
+    routes: [
+      { path: '/', component: TheHome },
+      { path: '/ten-thousand-nodes', component: TheLongGrid },
+    ],
+  });
 
 export default createRouter;

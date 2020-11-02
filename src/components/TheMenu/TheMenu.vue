@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="menu">
     <the-menu-sections :sections="menu.sections" />
   </div>
 </template>
@@ -23,5 +23,8 @@ export default {
 </script>
 
 <style>
-
+.menu {
+  display: flex;
+  border: 2px solid navy;
+}
 </style>
