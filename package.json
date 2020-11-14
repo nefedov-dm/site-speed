@@ -31,6 +31,6 @@
     "build:serverbundle:dev": "npx webpack --mode=development -w -c webpack.server.config.js",
     "build:client:dev": "run-p build:clientmanifest:dev build:serverbundle:dev",
     "server:dev": "npx nodemon --watch src/server.js --watch dist ./src/server.js",
-    "start:dev": "yarn build:dev & yarn server:dev"
+    "start:dev": "yarn build:client:dev & yarn server:dev"
   }
 }

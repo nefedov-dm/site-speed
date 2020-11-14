@@ -9,6 +9,20 @@
     <title>Document</title>
   </head>
   <body>
+    <script>
+      // window.performance.mark('start_render_body');
+    </script>
+
     <!--vue-ssr-outlet-->
+
+    <script>
+      window.performance.mark('fmp');
+      // window.performance.mark('finish_render_body');
+    </script>
+
+    <!-- <script>
+      window.performance.mark('fmp');
+      window.performance.measure('finish_render', 'start_render');
+    </script> -->
   </body>
 </html>

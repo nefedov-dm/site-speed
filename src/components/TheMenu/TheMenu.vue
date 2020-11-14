@@ -25,6 +25,9 @@ export default {
 <style>
 .menu {
   display: flex;
-  border: 2px solid navy;
+  color: #e5e5e5;
+  border: 2px solid #dc5356;
+  border-radius: 4px;
+  font-size: 14px;
 }
 </style>
